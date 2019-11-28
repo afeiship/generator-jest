@@ -1,7 +1,5 @@
 "use strict";
 const Generator = require("yeoman-generator");
-const chalk = require("chalk");
-const yosay = require("yosay");
 const glob = require("glob");
 const { resolve } = require("path");
 const remote = require("yeoman-remote");
@@ -13,7 +11,6 @@ module.exports = class extends Generator {
       "afeiship",
       "boilerplate-jest",
       function(err, cachePath) {
-        // copy files:
         this.fs.copy(
           glob.sync(resolve(cachePath, "jest.config.js")),
           this.destinationPath()
@@ -22,6 +19,7 @@ module.exports = class extends Generator {
       }.bind(this)
     );
   }
+
   install() {
     this.npmInstall(["jest"], { "save-dev": true });
   }
