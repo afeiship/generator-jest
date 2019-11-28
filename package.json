@@ -1,6 +1,6 @@
 {
   "name": "generator-jest",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Yeoman for jest.",
   "homepage": "https://github.com/afeiship/generator-jest",
   "author": {
