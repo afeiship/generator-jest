@@ -13,7 +13,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "jest",
     "yeoman-generator"
   ],
   "devDependencies": {
