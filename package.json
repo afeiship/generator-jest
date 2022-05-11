@@ -32,6 +32,7 @@
     "npm": ">= 4.0.0"
   },
   "dependencies": {
+    "@jswork/yeoman-generator-helper": "^1.0.7",
     "chalk": "^2.1.0",
     "yeoman-generator": "^2.0.1",
     "yeoman-remote": "^1.0.1",
